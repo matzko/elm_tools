@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  elm_exec:
+    image: matzko/elm_tools
+    build:
+      context: .
+      dockerfile: Dockerfile
