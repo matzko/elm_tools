@@ -6,3 +6,5 @@ alias elm='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $U
 alias elm-generate='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $UID:$GID matzko/elm_tools elm-generate'
 alias elm-format='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $UID:$GID matzko/elm_tools elm-format'
 alias elm-analyse='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $UID:$GID matzko/elm_tools elm-analyse'
+alias create-elm-app@3='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $UID:$GID matzko/elm_tools create-elm-app'
+alias elm-app@3='docker run -it --rm -v "$(pwd):/code" -w "/code" -e "HOME=/tmp" -u $UID:$GID matzko/elm_tools elm-app'
